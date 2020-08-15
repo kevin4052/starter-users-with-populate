@@ -6,8 +6,8 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true
   })
-  .then(() => console.log(`Successfully connected to the database ${MONGODB_URI}`))
+  .then(x => console.log(`Successfully connected to the database ${x.connections[0].name}`))
   .catch(error => {
-    console.error(`An error ocurred trying to connect to the database ${MONGODB_URI}: `, error);
+    console.error(`An error ocurred trying to connect to the database: `, error);
     process.exit(1);
   });
