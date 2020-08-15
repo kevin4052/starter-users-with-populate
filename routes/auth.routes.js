@@ -14,7 +14,7 @@ const routeGuard = require('../configs/route-guard.config');
 ////////////////////////////////////////////////////////////////////////
 
 // .get() route ==> to display the signup form to users
-router.get('/signup', (req, res) => res.render('auth/signup'));
+router.get('/signup', (req, res) => res.render('auth/signup-form.hbs'));
 
 // .post() route ==> to process form data
 router.post('/signup', (req, res, next) => {
