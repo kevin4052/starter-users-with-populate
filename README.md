@@ -27,43 +27,43 @@ IronBlog is a social platform that allows authenticated users to create new post
 - Create the `Comment` model
 - Add the `/signup` **GET** route
 
-      - Create the _signup_ form
+  - Create the _signup_ form
 
 - Add the `/signup` **POST** route
 
-      - Check if credentials are valid, add user to DB
+  - Check if credentials are valid, add user to DB
 
 - Add the `/login` **GET** route
 
-      - Create login form
+  - Create login form
 
 - Add the `/login` **POST** route
 
-      - Check if credentials are valid, log the user in
+  - Check if credentials are valid, log the user in
 
 - Add the `/` **GET** route to access homepage
 
-      - Add homepage view
+  - Add homepage view
 
 - Add the `/post-create` **GET** route
 
-      - Create a new post form
+  - Create a new post form
 
 - Add the `/post-create` **POST** route
 
-      - Add a new post to the DB
+  - Add a new post to the DB
 
 - Add the `/posts` GET route
 
-      - Show all the posts
+  - Show all the posts
 
 - Add `/posts/:postId/comment` **POST** route
 
-      - Add a new comment to a specific post
+  - Add a new comment to a specific post
 
 - Add the `/posts/:postId` **GET** route
 
-      - Show a single post details, including the comments related to that post
+  - Show a single post details, including the comments related to that post
 
 - You will also have the _update_ and _delete_ routes.
 
@@ -154,6 +154,18 @@ $ tree -I node_modules
     └── users
         └── user-profile.hbs
 ```
+
+## Backlog
+
+- See the [Trello board]()
+
+## Links
+
+- [Mural - brainstorming and planning]()
+- [Trello board]()
+- [GitHub repo]()
+- [Deployed app]()
+- [Slides]()
 
 <hr>
 
